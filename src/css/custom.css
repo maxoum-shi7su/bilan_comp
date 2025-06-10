@@ -1,0 +1,30 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #4a90e2; /* Bleu clair */
+  --ifm-color-primary-dark: #007aff; /* Bleu iOS */
+  --ifm-color-primary-darker: #0056b3; /* Bleu moyen */
+  --ifm-color-primary-darkest: #004191; /* Bleu foncé */
+  --ifm-color-primary-light: #6ba8e5; /* Bleu très clair */
+  --ifm-color-primary-lighter: #93c2f3; /* Bleu ciel */
+  --ifm-color-primary-lightest: #b3d4f5; /* Bleu pâle */
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #2096f3; /* Bleu vif */
+  --ifm-color-primary-dark: #1e88e5; /* Bleu roi */
+  --ifm-color-primary-darker: #1976d2; /* Bleu cobalt */
+  --ifm-color-primary-darkest: #1565c0; /* Bleu marine */
+  --ifm-color-primary-light: #42a5f5; /* Bleu clair */
+  --ifm-color-primary-lighter: #64b5f6; /* Bleu azur */
+  --ifm-color-primary-lightest: #90caf9; /* Bleu glacier */
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}

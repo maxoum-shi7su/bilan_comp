@@ -78,6 +78,13 @@ const config = {
                         position: 'left',
                         label: 'Compétences',
                     },
+                    {
+                        type: 'docSidebar',
+                        sidebarId: 'agileSidebar',
+                        position: 'left',
+                        label: 'Agile Niort',
+                    },
+                    
                     /*
                   {
                     type: 'docSidebar',

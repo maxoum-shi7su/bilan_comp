@@ -31,6 +31,23 @@ const sidebars = {
             label: 'Ma formation',
         },
         {
+            type: 'category',
+            label: 'Projets',
+            items: [
+                {
+                    type: 'doc',
+                    id: 'skills/projects/projet-tut',
+                    label: 'Projet tuteuré : Suivi de ligne AI',
+                },
+                {
+                    type: 'doc',
+                    id: 'skills/projects/projet-plateforme',
+                    label: 'Projet Plateforme pédagogique',
+                },
+            
+            ]
+        },
+        {
             type: 'doc',
             id: 'skills/c1c2c3/projet-global',
             label: 'Réaliser, optimiser et administrer',
@@ -39,7 +56,31 @@ const sidebars = {
             type: 'doc',
             id: 'skills/c4/c4',
             label: 'Gérer des données de l\'information',
-        }
+        },
+        {
+            type: 'doc',
+            id: 'skills/c5/c5',
+            label: 'Conduire un projet',
+        },
+        {
+            type: 'doc',
+            id: 'skills/c6/c6',
+            label: 'Collaborer au sein d\'une équipe informatique',
+        },
+        
+    ],
+    agileSidebar: [
+        {
+            type: 'doc',
+            id: 'agile-niort/douceur',
+            label: 'La douceur est-elle un avantage dans ce monde de brutes ?',
+        },
+        {
+            type: 'doc',
+            id: 'agile-niort/cartographier',
+            label: 'Cartographier pour mieux avancer',
+        },
+
     ],
     /*
     introductionSidebar: [

@@ -8,20 +8,22 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: 'Mémoire',
-    tagline: 'Mémoire de fin de Bachelor Universitaire de Technologie Informatique',
+    title: 'Bilan de compétences',
+    tagline: 'Bachelor Universitaire de Technologie Informatique',
     favicon: 'img/favicon.ico',
 
     // Set the production url of your site here
-    url: 'https://your-docusaurus-site.example.com',
+    url: 'https://maxoum-shi7su.github.io',
     // Set the /<baseUrl>/ pathname under which your site is served
     // For GitHub pages deployment, it is often '/<projectName>/'
-    baseUrl: '/',
+    baseUrl: '/bilan_comp/',
 
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
     organizationName: 'maxoum-shi7su', // Usually your GitHub org/user name.
-    projectName: 'memoire-docusaurus', // Usually your repo name.
+    projectName: 'bilan_comp', // Usually your repo name.
+    deploymentBranch: 'gh-pages',
+    trailingSlash: false,
 
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
@@ -120,11 +122,11 @@ const config = {
                     {
                         sidebarId: 'lib',
                         position: 'right',
-                        label: 'Librairie',
-                        href: 'https://github.com/Eliobot/Eliobot-Python-Library/tree/main',
+                        label: 'Elio Academy',
+                        href: 'https://elio.academy/',
                     },
                     {
-                        href: 'https://github.com/maxoum-shi7su/memoire',
+                        href: 'https://github.com/maxoum-shi7su/bilan_comp',
                         label: 'GitHub',
                         position: 'right',
                     },

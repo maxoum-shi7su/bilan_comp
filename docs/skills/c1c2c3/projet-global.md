@@ -19,13 +19,20 @@ La gestion de ces missions constitue une charge administrative lourde et complex
 - Les distances doivent être calculées avec Mappy et les remboursements sont soumis à des barèmes précis.
 - Les échanges d’informations se faisaient essentiellement par mail ou teams, souvent accompagnés de notes manuscrites.
 
+![FORMULAIRE DE DECLARATION DE MISSION](../../../static/img/c1c2c3/FORM-ULR.png)
+>Il y'a encore 3 pages de formulaire après celle-ci avec les informations de transport, les justificatifs, etc.
+
 Adélaïde passait donc beaucoup de temps à centraliser les informations, réaliser des calculs et générer des justificatifs à la main. L'objectif du projet était de concevoir une application web capable de simplifier et d'automatiser ces différentes tâches.
+
+![PETIT CARNET D'ADÉLAÏDE](../../../static/img/c1c2c3/CARNET-MANUSCRIT.png)
 
 ## Méthodologie de conduite du projet
 
 Le projet a été conduit selon une approche Agile, avec des itérations courtes et une forte interaction avec les utilisateurs finaux. J’ai assuré le rôle de Product Owner (PO) tout au long du projet, en étroite collaboration avec Adélaïde, les enseignants et l'équipe de développement.
 
-La gestion Agile nous a permis d’ajuster progressivement le périmètre fonctionnel en fonction des retours utilisateurs et des contraintes techniques rencontrées.
+La gestion Agile nous a permis d’ajuster progressivement le périmètre fonctionnel en fonction des retours utilisateurs et des contraintes techniques rencontrées. Tout à été consigné sur un miro (tableau collaboratif) pour assurer la traçabilité des décisions et des évolutions.
+
+![MIRO - TABLEAU DE BORD DU PROJET](../../../static/img/c1c2c3/MIRO-PROJET.png)
 
 ### Sprint 1 — Analyse des besoins et cadrage fonctionnel
 
@@ -71,12 +78,9 @@ Durant ce sprint, nous avons posé les bases techniques de l'application et dév
 - **Formulaires simplifiés** : permettant d’ajouter les détails de chaque mission (lieu, date, heure, motif…).
 - **Génération de justificatifs en PDF** : export des emplois du temps sous forme de pièces justificatives.
 
-### Sprint 3 — Améliorations ergonomiques et gestion des comptes utilisateurs
+### Sprint 3 — Améliorations ergonomiques
 
 Une fois le socle fonctionnel stabilisé, nous avons concentré les efforts sur l'expérience utilisateur :
-
-- **Système d'authentification et de comptes utilisateurs**  
-  Chaque intervenant dispose désormais d’un compte personnel, lui permettant de retrouver facilement ses missions, compléter ses informations et fournir ses pièces justificatives directement dans l’application.
 
 - **Amélioration de l’interface utilisateur (UI/UX)**  
   Intégration de nombreux retours utilisateurs pour fluidifier les opérations quotidiennes, notamment la gestion des transports et le copier-coller vers la plateforme universitaire.
@@ -86,6 +90,16 @@ Une fois le socle fonctionnel stabilisé, nous avons concentré les efforts sur 
 
 - **Calcul automatique des remboursements** : intégration des barèmes officiels kilométriques et des distances.
 
+### Sprint 4 — Gestion des comptes utilisateurs
+
+Pour fournir un accès au personnel administratif et aux enseignants, nous avons implémenté un système de gestion des comptes utilisateurs :
+- **Système d'authentification et de comptes utilisateurs**  
+  Chaque intervenant dispose désormais d’un compte personnel, lui permettant de retrouver facilement ses missions, compléter ses informations et fournir ses pièces justificatives directement dans l’application.
+- **Gestion des rôles et permissions**
+  Adélaïde peut gérer les comptes des enseignants et intervenants, en ajoutant ou supprimant des utilisateurs selon les besoins. Les enseignants peuvent uniquement consulter et déclarer leurs propres missions.
+- **Sécurisation des données**
+  Mise en place de mesures de sécurité pour protéger les données personnelles et les informations sensibles, conformément aux bonnes pratiques de développement web.
+  
 #### Gestion des données personnelles et respect du RGPD
 
 Dès la conception, nous avons pris en compte la nécessité de limiter la quantité de données personnelles collectées :
@@ -94,7 +108,7 @@ Dès la conception, nous avons pris en compte la nécessité de limiter la quant
 - Trigramme (identifiant unique de l’IUT)
 - Informations de transport strictement nécessaires (véhicule et documents obligatoires)
 
-Aucune donnée superflue ou sensible inutile n’est stockée, et les utilisateurs ont accès à leurs données personnelles directement depuis leur compte.
+Aucune donnée superflue ou sensible inutile n’est stockée, et les utilisateurs ont accès à leurs données personnelles directement depuis leur compte. On ne stocke pas les documents entiers, mais uniquement les informations nécessaires à la déclaration des missions.
 
 ## Difficultés rencontrées
 
@@ -125,12 +139,10 @@ L’un des aspects les plus satisfaisants a été de voir l’application adopt�
 - **C3. Administrer des systèmes informatiques communicants complexes**  
   Déploiement cloud, gestion de la base de données PostgreSQL, configuration des environnements.
 
+#### Sous-compétences mentionnables
+
 - **C5. Conduire un projet**  
   Gestion des sprints, animation des réunions de cadrage, planification des fonctionnalités, coordination de l’équipe.
 
 - **C6. Collaborer au sein d’une équipe informatique**  
   Communication continue, gestion des échanges techniques et fonctionnels, adaptation au rythme de travail collectif.
-
-## Conclusion
-
-Ce projet représente parfaitement l’entente entre les compétences techniques et les compétences de gestion de projet que j’ai acquises au cours de mon BUT. La satisfaction de livrer un outil utile et utilisé au quotidien par de vrais utilisateurs reste l’une des plus belles récompenses sur un projet informatique.

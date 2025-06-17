@@ -37,9 +37,9 @@ Elle permet aux enfants de programmer Eliobot sans écrire de code, tout en dév
     <img src={require('@site/static/img/pt2/welcome-image.gif').default} alt="Elioblocs" width="70%" />
 </p>
 
-### [ELIO Academy – La plateforme pédagogique](https://elio.academy/)
+### [Elio Academy – La plateforme pédagogique](https://elio.academy/)
 
-La plateforme ELIO Academy est un outil en ligne qui a pour mission d’enseigner les STEMs (sciences, technologie, ingénierie et mathématiques) aux jeunes, de la primaire à la terminale, de façon ludique et interactive.
+La plateforme Elio Academy est un outil en ligne qui a pour mission d’enseigner les STEMs (sciences, technologie, ingénierie et mathématiques) aux jeunes, de la primaire à la terminale, de façon ludique et interactive.
 
 Deux usages sont prévus :
 - À la maison, en autonomie
@@ -58,7 +58,7 @@ La plateforme met l’accent sur l’aspect communautaire :
 
 Elle intègre également une gamification poussée : badges, succès, récompenses, incitations à la création et à l’apprentissage.
 
-Côté pédagogie, ELIO mise sur le micro-learning : de courtes leçons interactives où l’utilisateur est actif à chaque étape.  
+Côté pédagogie, Elio mise sur le micro-learning : de courtes leçons interactives où l’utilisateur est actif à chaque étape.  
 Dès la première connexion, l’utilisateur renseigne son niveau, ses matières préférées et ses objectifs pour recevoir un contenu personnalisé.
 
 Pour l’usage scolaire, une intégration avec les établissements (ex. GAR) est envisagée.
@@ -86,24 +86,22 @@ Mon rôle a évolué au fil des mois, avec des missions variées :
 
 Deux projets ont marqué ma deuxième année d’alternance : ce sont aussi les deux projets principaux de ce mémoire.
 
-### 1. Projet tutoré – Suivi de ligne autonome
+### 1. [Projet tutoré – Suivi de ligne autonome](../skills/projects/projet-tut)
 
-Un projet mené en lien avec le cadre scolaire, dont l’objectif était de faire tourner un modèle léger sur un ESP32-S2 pour piloter un robot suiveur de ligne.
+Un projet mené en lien avec le cadre scolaire, dont l’objectif était de faire tourner un modèle d'intélligence artificielle léger sur un ESP32-S2 pour piloter Eliobot de manière autonome sur une ligne.
 
-### 2. Projet de plateforme ELIO Academy
+### 2. [Projet de plateforme Elio Academy](../skills/projects/projet-plateforme)
 
-La plateforme ELIO Academy est actuellement en cours de développement.
+La plateforme Elio Academy est actuellement en cours de développement.
 
 J’ai été impliqué dès la phase de préconceptualisation, notamment en définissant les besoins avec Romain.  
 J’ai ensuite :
 
-- **Encadré** un groupe d’étudiants (BUT 3 – parcours A) chargé de produire un premier MVP,  
+- **Encadré** un groupe d’étudiants (BUT 3 – parcours Full-Stack) chargé de produire un premier MVP,  
 - **Repris** ce MVP pour l’adapter aux besoins pédagogiques et techniques de l’entreprise,  
-- **Revu** toute l’architecture logicielle (API, base de données, authentification),  
+- **Revu** toute l’architecture logicielle (API, base de données, ),  
 - **Déployé** les premières versions sur un VPS,  
 - **Supervisé** deux stagiaires (BUT 2 et BUT 3) pour faire évoluer la plateforme.
-
-Ce projet m’a permis de mobiliser des compétences variées : gestion de projet, développement back-end, front-end, UX, et encadrement technique.
 
 ---
 

@@ -50,23 +50,28 @@ const sidebars = {
         {
             type: 'doc',
             id: 'skills/c1c2c3/projet-global',
-            label: 'Réaliser, optimiser et administrer',
+            label: 'C1, C2 et C3 - Réaliser, optimiser et administrer',
         },
         {
             type: 'doc',
             id: 'skills/c4/c4',
-            label: 'Gérer des données de l\'information',
+            label: 'C4 - Gérer des données de l\'information',
         },
         {
             type: 'doc',
             id: 'skills/c5/c5',
-            label: 'Conduire un projet',
+            label: 'C5 - Conduire un projet',
         },
         {
             type: 'doc',
             id: 'skills/c6/c6',
-            label: 'Collaborer au sein d\'une équipe informatique',
+            label: 'C6 - Collaborer au sein d\'une équipe informatique',
         },
+        {
+            type: 'doc',
+            id: 'bilan/skills-goal',
+            label: 'Bilan des compétences',
+        }
         
     ],
     agileSidebar: [

@@ -43,7 +43,9 @@ La deuxième et troisième année s’effectue en **alternance**, ce qui permet 
 - des périodes de formation à l’IUT,
 - et des périodes professionnelle en entreprise.
 
-Ce rythme d’alternance favorise l’application directe des choses appris dans des projets concrets, et l’acquisition d’expériences professionnelles.
+Ce rythme d’alternance favorise l’application directe des choses apprise dans des projets concrets, et l’acquisition d’expériences professionnelles.
+
+Mon référent pédagogique à L'IUT est M. Cyrille Suire.
 
 ## Pourquoi j’ai choisi ce parcours
 

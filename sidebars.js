@@ -71,7 +71,12 @@ const sidebars = {
             type: 'doc',
             id: 'bilan/skills-goal',
             label: 'Bilan des compétences',
-        }
+        },
+        {
+            type: 'doc',
+            id: 'remerciement/thank',
+            label: 'Remerciements',
+        },
         
     ],
     agileSidebar: [

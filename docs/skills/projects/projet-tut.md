@@ -4,19 +4,35 @@ title: Projet Suivi de Ligne IA
 sidebar_position: 0
 ---
 
-# Suivi de Ligne avec Intelligence Artificielle
+# Suivi de Ligne IA
 
 ## Le Suivi de Ligne en Robotique
 
-### 1. Introduction
+### Introduction
 
-Le **suivi de ligne** est une tâche fondamentale en robotique mobile. Elle consiste à concevoir un robot capable de se déplacer en suivant un chemin matérialisé (généralement une ligne noire sur fond blanc, ou l'inverse) sans quitter la trajectoire.
+Le **suivi de ligne** est une tâche classique en robotique mobile. Il s’agit de concevoir un robot capable de suivre une trajectoire matérialisée (souvent une ligne noire sur fond blanc) sans la quitter.
 
-C’est l'un des problèmes les plus étudiés en robotique éducative, industrielle (ex : chaînes logistiques) et même dans le domaine de la robotique autonome avancée (ex : prototypes de véhicules autonomes).
+C’est un sujet qu’on retrouve autant en robotique éducative qu’en industrie (logistique, automatisation) ou dans des protos de véhicules autonomes.
 
-Dans ce projet, j'ai collecté des données réelles du robot et entraîné un modèle d'intelligence artificielle à l'aide de TensorFlow pour le rendre autonome dans son suivi de ligne. Le modèle a été converti et préparé pour être déployé sur un microcontrôleur ESP32-S2 via TensorFlow Lite.
+Dans ce projet, j’ai voulu pousser un peu plus loin le concept : utiliser un model embarquée pour contrôler le robot, en me basant sur de vraies données collectées.
 
-### 2. Principe du suivi de ligne
+---
+
+### Pourquoi utiliser l’IA ici ?
+
+Le suivi de ligne classique, avec de la logique conditionnelle, fonctionne très bien. Alors pourquoi se compliquer la vie avec un modèle d’apprentissage ?
+
+Voici les motivations principales :
+
+- Démonstration technique : Montrer qu’on peut faire tourner un modèle de machine learning sur un microcontrôleur comme l’ESP32-S2, ce qui reste un défi technique.
+
+- Exploration pédagogique : Intégrer une approche IA dans un projet robotique pour illustrer les étapes complètes d’un système apprenant embarqué (de la collecte à l’utilisation).
+
+- Vers une plateforme no-code éducative : Ce projet alimente la réflexion autour de la Plateforme Elio Academy, où l’on souhaite pré-packager des comportements intelligents (comme le suivi de ligne par IA), utilisables par des élèves sans avoir à réellement collecter des données ou entraîner un modèle.
+
+En résumé, le besoin n’est pas d’améliorer le suivi de ligne (qui fonctionne déjà bien avec des règles), mais d'explorer et démontrer une capacité embarquée d’IA, dans une optique éducative et technologique.
+
+### Principe du suivi de ligne
 
 L'objectif est que le robot détecte en temps réel sa position par rapport à la ligne, puis ajuste ses déplacements pour rester aligné avec celle-ci.
 
@@ -27,7 +43,7 @@ Deux grandes approches existent :
 
 **Dans notre cas**, le robot est équipé de **capteurs infrarouges** pour effectuer cette détection.
 
-### 3. Application pratique
+### Application pratique
 
 Notre robot suiveur de ligne est équipé de :
 
@@ -35,7 +51,7 @@ Notre robot suiveur de ligne est équipé de :
 * **Moteurs** contrôlant les roues.
 * **Un microcontrôleur ESP32-S2**, responsable du traitement des données capteurs et de la prise de décisions.
 
-### 4. Objectifs du projet
+### Objectifs du projet
 
 #### Objectifs Techniques
 
@@ -51,7 +67,7 @@ L'objectif pédagogique est de vérifiér si on peut utiliser Eliobot comme supp
 
 ## Récolte des données
 
-### 1. Données nécessaires
+### Données nécessaires
 
 Chaque échantillon contient :
 
@@ -65,7 +81,7 @@ Chaque échantillon contient :
 | 1       | 1       | 0       | 1       | 1       | 1      | 1      |
 | 1       | 1       | 1       | 1       | 0       | 0      | 1      |
 
-### 2. Collecte réelle
+### Collecte réelle
 
 * Données enregistrées via l'ESP32-S2 sur un parcours test.
 * Fichier CSV produit (3730 échantillons).

@@ -86,33 +86,6 @@ const config = {
                         position: 'left',
                         label: 'Agile Niort',
                     },
-                    
-                    /*
-                  {
-                    type: 'docSidebar',
-                    sidebarId: 'introductionSidebar',
-                    position: 'left',
-                    label: 'Introduction',
-                  },
-                  {
-                    type: 'docSidebar',
-                    sidebarId: 'alternanceSidebar',
-                    position: 'left',
-                    label: 'Alternance',
-                  },
-                  {
-                    type: 'docSidebar',
-                    sidebarId: 'remerciementSidebar',
-                    position: 'left',
-                    label: 'Remerciements',
-                  },
-                  {
-                    type: 'docSidebar',
-                    sidebarId: 'annexesSidebar',
-                    position: 'left',
-                    label: 'Annexes',
-                  },
-                     */
                     {
                         sidebarId: 'elioblocs',
                         position: 'right',

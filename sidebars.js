@@ -70,7 +70,7 @@ const sidebars = {
         {
             type: 'doc',
             id: 'bilan/skills-goal',
-            label: 'Bilan des compétences',
+            label: 'Récapitulatif des compétences & traces',
         },
         {
             type: 'doc',

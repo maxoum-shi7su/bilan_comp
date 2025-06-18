@@ -33,7 +33,7 @@ et il me tient à cœur de les partager.
 
 Ces projets sont le fil rouge de ce mémoire et illustrent les compétences acquises durant ma formation. Ils sont présentés dans le mémoire sous forme de **projets** et de **compétences**.
 
-1. **[Projet tutoré – Suivi de ligne autonome](skills/projects/projet-tut)**  
+1. **[Projet tutoré – Suivi de ligne IA](skills/projects/projet-tut)**  
    Ce projet, réalisé entre le cadre scolaire et l’entreprise, visait à faire tourner un modèle léger sur un microcontrôleur ESP32-S2 pour qu’un robot (Eliobot) puisse suivre une ligne de manière autonome.
 
 2. **[Projet d’entreprise – Plateforme Elio Academy](skills/projects/projet-plateforme)**  

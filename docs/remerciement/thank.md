@@ -1,5 +1,5 @@
 ---
-id: remerciements
+id: thank
 sidebar_position: 1
 ---
 

@@ -38,10 +38,10 @@ Ces projets sont le fil rouge de ce mémoire et illustrent les compétences acqu
 
 2. **[Projet d’entreprise – Plateforme Elio Academy](skills/projects/projet-plateforme)**  
    Un projet d’envergure suivi depuis sa phase de préconceptualisation. Ou j'ai :
-   - Participer à la définition des besoins initiaux,
-   - Encadrer un groupe d’étudiants chargé de réaliser un premier MVP,
-   - Reprendre ce MVP pour revoir l’architecture, développer l’application et la déployer,
-   - Superviser deux stagiaires (BUT 2 et BUT 3) pour faire évoluer la plateforme en fonction des besoins réels de l’entreprise.
+   - Participé à la définition des besoins initiaux,
+   - Encadré un groupe d’étudiants chargé de réaliser un premier MVP,
+   - Repris ce MVP pour revoir l’architecture, développer l’application et la déployer,
+   - Supervisé deux stagiaires (BUT 2 et BUT 3) pour faire évoluer la plateforme en fonction des besoins réels de l’entreprise.
 
 ---
 

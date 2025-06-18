@@ -26,7 +26,7 @@ const FeatureList = [
     Svg: require('@site/static/img/img-01.svg').default,
     description: (
       <>
-        Le lieu accueillant mon entreprise mais aussi ma formation.
+        Le lieu accueillant mon entreprise ainsi que ma formation.
       </>
     ),
   },

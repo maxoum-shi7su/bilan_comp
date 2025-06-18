@@ -156,7 +156,7 @@ const config = {
                         ]
                     }
                 ],
-                copyright: `Copyright © ${new Date().getFullYear()} Mémoire Maxime Mauduit, Inc. Built with Docusaurus.`,
+                copyright: `Copyright © ${new Date().getFullYear()} Bilan de Compétences de Maxime Mauduit, Inc. Built with Docusaurus.`,
             },
             prism: {
                 theme: prismThemes.github,

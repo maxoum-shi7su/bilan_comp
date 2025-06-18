@@ -37,7 +37,7 @@ const sidebars = {
                 {
                     type: 'doc',
                     id: 'skills/projects/projet-tut',
-                    label: 'Projet tuteuré : Suivi de ligne AI',
+                    label: 'Projet tutoré : Suivi de ligne AI',
                 },
                 {
                     type: 'doc',

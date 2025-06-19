@@ -15,7 +15,7 @@ Je remercie également [Romain Boutrois](https://www.linkedin.com/in/romain-bout
 
 Pour leur accueil chaleureux et leurs conseils précieux, je remercie l’équipe de NiortTech : [Floriane Lombard](https://www.linkedin.com/in/floriane-lombard/), [Aurélie Rodrigues](https://www.linkedin.com/in/aurelie-rodrigues/) et [Lilou Berthonneau](https://www.linkedin.com/in/lilou-berthonneau-8604741bb/), qui ont toujours été disponibles pour répondre à mes questions, m’aider dans mes projets (et me supporter aussi), que ce soit à l’école ou en entreprise.
 
-Un mot également pour toutes les structures qui m’ont permis de découvrir différentes facettes du monde professionnel, notamment [Game Parteners](https://www.linkedin.com/company/gamepartners/), [Altæ Technopole Niort Deux-Sèvres](https://www.linkedin.com/company/altae-technopole/), [iArtisanat](https://www.linkedin.com/company/iartisanat/) et toutes les autres entreprises qui ont contribué à mon parcours.
+Un mot également pour toutes les structures qui m’ont permis de découvrir différentes facettes du monde professionnel, notamment [Game Partners](https://www.linkedin.com/company/gamepartners/), [Altæ Technopole Niort Deux-Sèvres](https://www.linkedin.com/company/altae-technopole/), [iArtisanat](https://www.linkedin.com/company/iartisanat/) et toutes les autres entreprises qui ont contribué à mon parcours.
 
 Un remerciement spécial à [Laure Tuffereau](https://www.linkedin.com/in/lauretuffereau/) pour son soutien et ses encouragements constants lors de ma recherche d’alternance.
 

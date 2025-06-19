@@ -7,8 +7,6 @@ sidebar_position: 1
 
 Dans le cadre de la rédaction de ce mémoire, j’ai eu l’opportunité de travailler sur un sujet qui me passionne et qui me tient à cœur. Je souhaite ici remercier toutes les personnes qui m’ont accompagné et soutenu tout au long de mon alternance.
 
-## Remerciements
-
 Je tiens tout d’abord à remercier mon maître d’apprentissage à l’IUT, [Cyrille Suire](https://www.linkedin.com/in/cyrille-suire-116877226/), qui m’a donné l’opportunité de travailler sur ce sujet et m’a accompagné tout au long de l’alternance. Sa bienveillance, sa patience et ses conseils avisés m’ont été d’une aide précieuse.
 
 Je remercie également [Romain Boutrois](https://www.linkedin.com/in/romain-boutrois/) pour m’avoir recruté chez [Elio](https://www.linkedin.com/company/eliobot/), où j’ai trouvé un environnement d’apprentissage stimulant, sous sa direction attentive et bienveillante.
